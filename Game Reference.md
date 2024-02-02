@@ -188,52 +188,24 @@ A character may freely swap equipment at any time including on enemy turns. The 
 
 ### Items
 
-| Item                                               | Cost |
-|----------------------------------------------------|------|
-| Antitoxin                                          | 20   |
-| Bandages (3 uses) (Removes Temporary Injury)       | 30   |
-| Bathing Goods (Soap, Perfume, etc.)                | 5    |
-| Book                                               | 50   |
-| Caltrops                                           | 10   |
-| Card deck                                          | 5    |
-| Chain (10ft)                                       | 10   |
-| Chalk (petty)                                      | 1    |
-| Chest                                              | 25   |
-| Chisel                                             | 5    |
-| Common Agents (Glue, Grease, etc.)                 | 10   |
-| Common Tools (Hammer, Shovel, etc.)                | 10   |
-| Compass                                            | 75   |
-| Complex Instruments (Bagpipes, Fiddle, etc.)       | 50   |
-| Containers (Sack, Waterskin, etc.)                 | 10   |
-| Cooking Gear (Pots, Utensils, etc.)                | 10   |
-| Costume Gear (Face Paint, Disguise)                | 15   |
-| Expeditionary Gear (Climbing Spikes, Pulley), etc. | 10   |
-| Fire oil                                           | 10   |
-| Fishing rod                                        | 10   |
-| Games (Cards, Dice, etc.)                          | 10   |
-| Gloves (petty)                                     | 20   |
-| Grappling hook                                     | 25   |
-| Lantern                                            | 10   |
-| Mirror                                             | 5    |
-| Net                                                | 10   |
-| Oil (6 uses)                                       | 10   |
-| Outdoor Comfort (Blanket, Hammock, etc.)           | 10   |
-| Parchment (3 uses)                                 | 10   |
-| Pole (10ft)                                        | 5    |
-| Repellent (Wolfsbane, Mugwort, etc.)               | 10   |
-| Rope (25ft)                                        | 5    |
-| Sewing kit                                         | 20   |
-| Simple Instruments (Pipes, Lute, etc.)             | 10   |
-| Smoking pipe (petty)                               | 15   |
-| Specialized Tools (Ink, etc.)                      | 20   |
-| Spiked boots                                       | 15   |
-| Spyglass                                           | 40   |
-| Tent (fits, bulky)                                 | 20   |
-| Thieving Tools (Lockpick, Metal File, etc.)        | 25   |
-| Torch (3 uses)                                     | 5    |
-| Trap (+2 Str damage)                               | 35   |
-| Whistle (petty)                                    | 15   |
-| Wilderness Clothes (petty) (Poncho, Cloak, etc.)   | 15   |
+| Item  | Effect | Cost |
+|-------|--------|------|
+| Rope | Set at the top of a ledge to let people climb | 5 |
+| Climbing tools | Roll advantage on climb checks | 10 |
+| Poison | 3 uses. Poision arrow or melee weapon. Arrow is used even on miss. Hand weapon is used on next melee combat won.  Target rolls STR vs your attack roll. | 15 |
+| Disguise kit | 3 uses. Opposed WON rolls to see through. | 10 |
+| Net | Ranged attack within 10" to catch a unit in a net. While in a net a unit cant use movement actions. A unit may attempt a STR roll DC 13 to escape as an action. | 5 |
+| Torch | 3 uses. Creates light with 10". Takes up hand to use. Can attack as a hand weapon with -1 damage. | 5 |
+| Lantern | As torch but can tie to belt. | 20 |
+| Crowbar | Gains advantage on strength checks when used. | 15 |
+| Thieves tools | x3 Pick locks. Only used on a failed roll. | 15 |
+| Spyglass | Gains advantage on sight when used. | 20 |
+| Healers kit | 3 uses. Heal one temporary injury. | 20 |
+| Manacles | Can restrain a grapples unit as an action. | 10 |
+| Trap | The first unit to walk onto this takes a STR 3 attack. A unit may make a WON check DC 15 to see the trap. | 20 |
+| Banner or instrument | Use a move or standard action to play / wave. All heroes and followers within sight gain advantage on morale. | 15 |
+| Backpack (Petty) | Increase equip load to 8. -1 to STR checks | 10 |
+| Petty items | Candle, parchment, flint, chalk, quill etc. | 1 |
 
 ### Mounts
 When mounted on a riding creature the units gets the following modifiers:
@@ -242,28 +214,6 @@ When mounted on a riding creature the units gets the following modifiers:
 - -2 agility for shooting
 
 All attacks target the rider. If the rider fails any agility checks or is reduced to 0 HP they are knocked prone, off the horse.
-
-### Services
-#### Transport
-| Transport              | Cost |
-|------------------------|------|
-| Cart (+4 slots, bulky) | 30   |
-| Wagon (+8 slots, slow) | 200  |
-| Horse (+4 slots)       | 75   |
-| Mule (+6 slots, slow)  | 30   |
-| Carriage seat          | 5    |
-| Ship’s passage         | 10   |
-
-
-#### Upkeep & Recovery
-| Upkeep & Recovery             | Cost |
-|-------------------------------|------|
-| Room & board (per night)      | 10   |
-| Private room & board (fits 4) | 35   |
-| Stable & feed (per night)     | 5    |
-| Medical healing               | 20   |
-| Rations (3 uses)              | 10   |
-| Animal Feed (3 uses, bulky)   | 5    |
 
 ## Magical Equipment
 ### Potions
