@@ -40,8 +40,9 @@ Each player may have a number of followers corresponding to the number of player
 ### Recruiting new followers
 Each follow starts with the following:
 - The attributes as the players heroes.
-- Only one starting level up point
-- 20gp to spend on equipment per follower
+- Only one starting level up point.
+- 20gp to spend on equipment per follower.
+  - This 20gp must be spent on equipment for the follower or be lost.
 
 ## Encounters
 ### Round
