@@ -1,4 +1,49 @@
 # Game Reference
+
+* [Character creation & experience](#character-creation--experience)
+    + [Starting attributes](#starting-attributes)
+    + [XP point allocation](#xp-point-allocation)
+    + [Maximum stat values](#maximum-stat-values)
+  * [Followers](#followers)
+      + [Recruiting new followers](#recruiting-new-followers)
+  * [Encounters](#encounters)
+      + [Round](#round)
+      + [Turn](#turn)
+  * [Combat](#combat)
+      + [Melee combat](#melee-combat)
+      + [Ranged combat](#ranged-combat)
+      + [Magic](#magic)
+  * [Special effects](#special-effects)
+      + [Engaged](#engaged)
+      + [Outnumbered bonus](#outnumbered-bonus)
+      + [Intercepting Movement](#intercepting-movement)
+      + [Prone](#prone)
+      + [Climbing / Jumping](#climbing--jumping)
+      + [Falling](#falling)
+      + [Grappling](#grappling)
+      + [Poison](#poison)
+      + [Stealth](#stealth)
+  * [Death and injury](#death-and-injury)
+      + [Recovering HP](#recovering-hp)
+      + [Running out of HP](#running-out-of-hp)
+      + [Injury roll](#injury-roll)
+  * [Equipment](#equipment)
+      + [Equipment load](#equipment-load)
+          - [Bulky](#bulky)
+          - [Petty](#petty)
+      + [Equipped weapons](#equipped-weapons)
+          - [Dual wielding](#dual-wielding)
+      + [Weapons](#weapons)
+      + [Armour](#armour)
+      + [Items](#items)
+      + [Mounts](#mounts)
+  * [Magical Equipment](#magical-equipment)
+      + [Potions](#potions)
+      + [Magic Weapons and armour](#magic-weapons-and-armour)
+  * [Skills and Spells](#skills-and-spells)
+      + [Skills](#skills)
+      + [Spells](#spells)
+        
 ## Character creation & experience
 ### Starting attributes
 
@@ -8,7 +53,7 @@
 
 1. Roll for one a character aspect
 2. (Optional): Gain a second aspect of the players choice
-   1. If a character aspect is not picked it may be picked at a later point during gameplay
+    1. If a character aspect is not picked it may be picked at a later point during gameplay
 3. Start with 4 level up points
 4. Start with 30 gp.
 
@@ -45,7 +90,7 @@ Each follower starts with the following:
 - The starting attributes as per the players heroes.
 - Only one starting level up point.
 - 20gp to spend on equipment per follower.
-  - This 20gp must be spent on equipment for the follower or be lost.
+    - This 20gp must be spent on equipment for the follower or be lost.
 - Start with one random stat-up from following table
 
 | Roll  | Statistic increase |
