@@ -2,30 +2,33 @@
 ## Character creation & experience
 ### Starting attributes
 
-| Move | STR | AGI | WON | AR  | HP  |
-|------|-----|-----|-----|-----|-----|
-| 6    | 0   | 0   | 0   | 10  | 10  |
+| Move | STR | AGI | WON | CHA | AR  | HP  |
+|------|-----|-----|-----|-----|-----|-----|
+| 6    | 0   | 0   | 0   | 0   | 10  | 10  |
 
-1. Create or pick two a character aspects
+1. Roll for one a character aspect
+2. (Optional): Gain a second aspect of the players choice
+   1. If a character aspect is not picked it may be picked at a later point during gameplay
 3. Start with 4 level up points
 4. Start with 30 gp.
 
-### Level up point allocation
-Level up points are awarded at discretion by the DM. Whenever a player gains one level up point during a session their followers gain half of one point.
+### XP point allocation
+XP points are awarded at discretion by the DM. Whenever a player gains XP point point during a session their followers gain half of one point.
 
-Each level up point can be allocated for one of the following:
+Each XP point can be allocated for one of the following:
 - Increase MOVE / STR / AGI / WON by 1
-- Gain one spell or skill
+- Increase CHA by 2
 - Increase HP by 2
+- Gain one spell or skill (Followers may not gain skills or spells)
 
 The same attribute increase cannot be picked twice in a row.
 
 ### Maximum stat values
 The maximum stats from level ups are as follows. Values can go higher from magic items except for armour which is capped.
 
-| Move | STR | AGI | WON | AR  | HP  |
-|------|-----|-----|-----|-----|-----|
-| 9    | 5   | 5   | 5   | 15  | 20  |
+| Move | STR | AGI | WON | CHA | AR  | HP  |
+|------|-----|-----|-----|-----|-----|-----|
+| 9    | 5   | 5   | 5   | 6   | 15  | 20  |
 
 ## Followers
 Each player may have a number of followers corresponding to the number of players.
@@ -38,11 +41,22 @@ Each player may have a number of followers corresponding to the number of player
 | 4+           | 1              |
 
 ### Recruiting new followers
-Each follow starts with the following:
-- The attributes as the players heroes.
+Each follower starts with the following:
+- The starting attributes as per the players heroes.
 - Only one starting level up point.
 - 20gp to spend on equipment per follower.
   - This 20gp must be spent on equipment for the follower or be lost.
+- Start with one random stat-up from following table
+
+| Roll  | Statistic increase |
+|-------|--------------------|
+| 1     | +1 WON             |
+| 2-4   | +2 CHA             |
+| 5-7   | +1 Move            |
+| 8-11  | +1 AGI             |
+| 12-15 | +2 HP              |
+| 16-20 | +1 STR             |
+
 
 ## Encounters
 ### Round
@@ -55,93 +69,100 @@ Each unit gets a move action and a standard action.
 
 **Standard:** Attacking, casting spells etc. A standard action can be used to move again however the second move only counts as half distance.
 
-1. First all units take their move action simultaneously.
+1. First all units take their move action simultaneously if possible.
 2. Afterwards resolve standard actions of each unit in any order.
+3. If anyone was unable to take their move action initially due to being engaged may now move.
 
 ## Combat
 ### Melee combat
-The attacker and the target of the attack both roll their strength skill. Whoever got higher wins the combat. If there is a tie then both units win the combat simultaneously.
+The attacker and the target of the attack both roll their **strength** skill. Whoever got higher wins the combat. If there is a tie then both units win the combat simultaneously.
 
-The combat winner then adds any damage modifiers to their roll. This is then considered to be their total damage.
+The combat winner **then adds** any damage modifiers to their roll. This is then considered to be their total damage.
 
-The loser subtracts their armour from the damage they are given, remaining damage is dealt to their HP total.
+The loser subtracts their **armour** from the damage they are given, remaining damage is dealt to their HP total.
 
-The combat winner can then either choose to stay engaged with the other unit or shove the other unit back 1 inch. If it’s the combat winner's turn and they have not yet used their move action they may now move.
+The combat winner can then either choose to **stay engaged** with the other unit or **shove** the other unit back 1 inch. If it’s the combat winner's turn and they have not yet used their move action they may now move.
 
 ### Ranged combat
-The attacker and the target of the attack both roll their agility skill. If the attacker rolled higher then they win the combat. If the defender rolls higher then the attack is a miss.
+The attacker and the target of the attack both roll their **agility** skill. If the attacker rolled higher then they win the combat. If the defender rolls higher then the attack is a **miss**. Apply any modifiers from the table below to the **defenders** roll.
 
-Defenders get a +2 bonus if part of their figure is in cover or a +4 if most of their figure is in cover. Defenders get a -2 if they are of size large.
+| Name        | Description                                                                     | Defender AGI Modifier |
+|-------------|---------------------------------------------------------------------------------|-----------------------|
+| Light Cover | If **part** of the figure is obstructed by the line of sight from the attacker. | +2                    |
+| Heavy Cover | If **most** of the figure is obstructed by the line of sight from the attacker. | +4                    |
+| Prone       | If the target of the ranged attack is **prone**.                                | +2                    |
+| Large       | If the target of the ranged attack is size **large**.                           | -2                    |
 
-The combat winner then adds any damage modifiers to their roll. This is then considered to be their total damage.
+The combat winner **then adds** any damage modifiers to their roll. This is then considered to be their total damage.
 
-The loser subtracts their armour from the damage they are given, remaining damage is dealt to their HP total.
+The loser subtracts their **armour** from the damage they are given, remaining damage is dealt to their HP total.
 
-If you shoot at a target that is engaged in combat then roll randomly to see who in the combat receives the attack.
+If you shoot at a target that is **engaged** in combat then **roll randomly** to see who in the combat receives the attack.
 
 ### Magic
-Each spell has a set difficulty, roll your wonder skill and if you get equal or higher than the spell difficulty you cast the spell.
+Each spell has a set difficulty, roll your wonder skill and if you get **equal or higher** than the spell difficulty you cast the spell.
 
-If you fail to cast a spell you may sacrifice HP to increase your wonder roll up to the spell difficulty at a ratio of one to one as many times as you have HP.
+If you **fail** to cast a spell you may **sacrifice HP** to increase your wonder roll up to the spell difficulty at a ratio of one to one as many times as you have HP.
 
-If you fail to cast a spell, take one damage.
+If you fail to cast a spell, take **one damage**.
 
-If a creature is required to roll a save against your spell the total casting roll you made is the DC they must get equal to or higher to save. You can sacrifice HP to increase your DC as per normal spell sacrifice.
-
-Given time and safety or succeeding on a spell by 5 or more, PCs can enhance a spell’s impact (e.g., affecting multiple targets, increasing its power, etc.) without any additional cost.
+If a creature is required to roll a save against your spell the total casting roll you made is the **DC** they must get equal to or higher to save. You can sacrifice HP to increase your DC as per normal spell sacrifice.
 
 ## Special effects
 ### Engaged
 Units are considered engaged when their bases are touching. When a unit is engaged they may not move, shoot or cast spells.
 
 ### Outnumbered bonus
-If multiple combatants are all engaged in a connected combat there may be an outnumbered bonus. Each side counts up the number of engaged combatants. The one with the most gets a +2 strength bonus for each unit they have more than the opposing side.
+If multiple combatants are all engaged in a connected combat there may be an outnumbered bonus. Each side counts up the number of engaged combatants. The one with the most gets a **+2 strength bonus** for each unit they have more than the opposing side.
 Eg. 3 units vs 5 units. The 5 units side gets a +4 on strength because they have two more units.
 
 ### Intercepting Movement
-If a unit moves within 1” of an enemy that enemy may choose to force them to become engaged. If a unit moves within 1” of two enemies at once then only one may intercept the movement.
+If a unit moves within **1”** of an enemy that enemy may choose to force them to become **engaged**. If a unit moves within 1” of two enemies at once then **only one** may intercept the movement.
 
 ### Prone
-If a character is prone they get a +2 agility to dodge ranged attacks and a -2 strength for melee combat. Standing up costs 1” of movement.
-
+If a character is prone they get a **+2 agility** to dodge ranged attacks and a **-2 strength** for melee combat. Standing up costs **1”** of movement.
 
 ### Climbing / Jumping
-If someone wants to climb a number of inches they must roll agility with the difficulty set to 10 + number of inches climbed / jumped. Climbing movement is halved so 1 move is 0.5”.
+If someone wants to climb a number of inches they must roll agility with the difficulty set to **10 + number of inches climbed / jumped**. Climbing movement is halved so 1 move is 0.5”.
 
 ### Falling
-If a character falls 2” or more roll agility with the difficulty set to 10 + number of inches fallen. If they fail they take damage equal to the number of inches fallen times two that is unblockable by armour.
+If a character falls **2” or more** roll agility with the difficulty set to **10 + number of inches fallen**. If they fail they take damage equal to the **number of inches fallen times two** that is unblockable by armour.
 
 ### Grappling
-To grapple a unit you must roll your strength versus the highest of the target's strength or agility. If you roll equal or higher then the target is grappled. When a target is grappled you may throw them 3” as a free action on your turn. Large creatures gain a +4 on grapple checks.
+To grapple a unit you must roll your **strength** versus the highest of the target's **strength or agility**. If you roll equal or higher then the target is grappled. When a target is grappled you may **throw them 3”** as a free action on your turn. Large creatures gain a +4 on grapple checks.
 
-A grappled unit can be tied up as an action by using rope. Once tied the target may no longer take actions.
+A grappled unit can be restrained as an **action** by using manacles. Once restrained the target may no longer take actions.
 
 When grappled a unit may only attempt to escape the grapple by re-rolling the grapple check.
 
 ### Poison
-If a unit is targeted by an attack with poison that ends up dealing at least one point of damage make a HP save. A HP save is a roll with your remaining HP added. If the result is equal to or higher than the attacker's damage then you are not poisoned.
+If a unit is targeted by an attack with poison that ends up dealing **at least one** point of damage make a HP save. A HP save is a roll with your remaining HP added. If the result is equal to or higher than the attacker's damage then you are not poisoned.
 
-If you are poisoned then you only get one action per round until healed. You may pick whether this is a standard or move action.
+If you are poisoned then you only get **one action** per round until healed. You may pick whether this is a standard or move action.
 
 ### Stealth
-If units are out of vision they may move silently without provocation. If part of your movement or your action would cross the vision of units you will not want to see make a stealth roll.
+If units are out of vision they may move silently without provocation. If part of your movement or your action would cross the vision of units you will not want to see make a **stealth roll**.
 
 To make a stealth roll, roll agility with the following bonuses:
-+2 if part of your figure would be covered or +4 if most of your figure would be covered
-+2 if you are further than 8” away
-+4 if the unit is distracted
 
-Of the targets that could see, roll wonder using the unit with the highest wonder stat. If the wonder roll is equal to or higher than the stealth roll it fails.
+| Condition                                                    | Bonus |
+|--------------------------------------------------------------|-------|
+| If **part** of your figure would be covered by line of sight | +2    |
+| If **most** of your figure would be covered by line of sight | +4    |
+| If you are further than **8” away**                          | +2    |
+| If the unit is **distracted**                                | +4    |
+
+Of the targets that could see, roll **wonder** using the unit with the **highest wonder stat**. If the wonder roll is equal to or higher than the stealth roll it **fails**.
 
 ## Death and injury
 ### Recovering HP
-Players taking a five minutes to rest fully recover their HP.
+Characters taking a **five minutes** to rest fully recover their HP. This represents the characters taking a moment to catch their breath and drink water.
 
 ### Running out of HP
-As soon as a unit reaches 0 HP, roll an injury roll on the table below.
-Player characters get a +2 to this roll.
-If the unit rolls injury and they already have an injury they stack. Injuries heal all at once.
-If the unit is already injured they receive a -2 to the roll for each injury.
+As soon as a unit reaches **0 HP**, roll an injury roll on the table below.
+- Player characters get a **+2** to this roll.
+- If the unit rolls injury and they already have an injury they **stack**. Injuries heal all at once.
+- If the unit is already injured they receive a **-2** to the roll per injury.
 
 ### Injury roll
 | Injury roll | Effect                                                                                                                                         |
@@ -156,29 +177,35 @@ If the unit is already injured they receive a -2 to the roll for each injury.
 Max equipment load is 5 item slots. If a unit is carrying a large object they move at half movement.
 
 #### Bulky
-Bulky items take up two item slots.
+Bulky items take up **two item slots**.
 
 #### Petty
-Petty items don't cost an item slot to hold because they are small.
+Petty items **don't cost an item slot** to hold because they are small.
 
 ### Equipped weapons
-A character may freely swap equipment at any time including on enemy turns. The only exception to this is a shield which takes a move action to equip or unequip.
+A character may freely swap equipment at any time including on enemy turns. The only exception to this is a **shield** which takes a move action to equip or unequip.
+
+#### Dual wielding
+One handed weapons can be dual wielded if done so apply the following:
+- Only apply one negative damage modifier (eg. 2 daggers only give -1 damage in total)
+- Add **+1 STR** to attacks
+- Apply a **-2 damage** modifier to attacks
 
 ### Weapons
-| Weapon                      | Damage Modifier | Maximum Range | Notes                                                                                                                                                                             | Cost |
-|-----------------------------|-----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Unarmed                     | -2              | –             | -2 Fight                                                                                                                                                                          | -    |
-| Dagger (Petty)              | -1              | –             | First dagger does not take up an item slot.                                                                                                                                       | 5    |
-| Throwing Daggers / Javelins | -1 in melee     | 10"           | Can be used in melee or ranged.                                                                                                                                                   | 10   |
-| Hand Weapon                 | –               | –             | Can dual wield for a +1 to strength in melee but a -2 to damage modifier.                                                                                                         | 10   |
-| Two-Handed Weapon           | 2               | –             | Takes up two item slots.                                                                                                                                                          | 20   |
-| Staff                       | -1              | –             | -1 damage modifier to opponent in hand-to-hand combat                                                                                                                             | 5    |
-| Sling                       | –1              | 18”           | Load and fire as a single action                                                                                                                                                  | 5    |
-| Bow                         | –               | 24”           | Load and fire as a single action; must have a quiver (5gc. included in item cost) which takes up an item slot.                                                                    | 20   |
-| Crossbow                    | 2               | 24”           | Load and fire as separate actions; may reload in place of movement; must have a quiver (5gc. included in item cost) which takes up an item slot                                   | 30   |
-| Pistol                      | -               | 10"           | Loud: can be heard across the board <br/> Misfire: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> Armour Piercing: -2 to target armour to a minimum of 10 | 25   |
-| Musket                      | 2               | 24"           | Loud: can be heard across the board <br/> Misfire: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> Armour Piercing: -2 to target armour to a minimum of 10 | 30   | 
-| Blunderbuss                 | -               | 14"           | Loud: can be heard across the board <br/> Misfire: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> Armour Piercing: -2 to target armour to a minimum of 10 | 35   |  |  |
+| Weapon                      | Damage Modifier | Maximum Range | Notes                                                                                                                                                                                         | Cost |
+|-----------------------------|-----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| Unarmed                     | -2              | –             |                                                                                                                                                                                               | -    |
+| Dagger (Petty)              | -1              | –             | First dagger does not take up an item slot.                                                                                                                                                   | 5    |
+| Throwing Daggers / Javelins | -1 in melee     | 10"           | Can be used in melee or ranged.                                                                                                                                                               | 10   |
+| Hand Weapon                 | –               | –             | Can dual wield for a +1 to strength in melee but a -2 to damage modifier.                                                                                                                     | 10   |
+| Two-Handed Weapon           | 2               | –             | Takes up two item slots.                                                                                                                                                                      | 20   |
+| Staff                       | -1              | –             | -1 damage modifier to opponent in hand-to-hand combat                                                                                                                                         | 5    |
+| Sling                       | –1              | 18”           | Load and fire as a single action                                                                                                                                                              | 5    |
+| Bow                         | –               | 24”           | Load and fire as a single action; must have a quiver (5gc. included in item cost) which takes up an item slot.                                                                                | 20   |
+| Crossbow                    | 2               | 24”           | Load and fire as separate actions; may reload in place of movement; must have a quiver (5gc. included in item cost) which takes up an item slot                                               | 30   |
+| Pistol                      | -               | 10"           | **Loud**: can be heard across the board <br/> **Misfire**: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> **Armour Piercing**: -2 to target armour to a minimum of 10 | 25   |
+| Musket                      | 2               | 24"           | **Loud**: can be heard across the board <br/> **Misfire**: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> **Armour Piercing**: -2 to target armour to a minimum of 10 | 30   | 
+| Blunderbuss                 | -               | 14"           | **Loud**: can be heard across the board <br/> **Misfire**: on a 1 the gun breaks and must be repaired for half of it’s cost <br/> **Armour Piercing**: -2 to target armour to a minimum of 10 | 35   |  |  |
 
 ### Armour
 | Armour       | Armour Modifier | Notes                                                                                     | Cost |
@@ -189,24 +216,24 @@ A character may freely swap equipment at any time including on enemy turns. The 
 
 ### Items
 
-| Item  | Effect | Cost |
-|-------|--------|------|
-| Rope | Set at the top of a ledge to let people climb | 5 |
-| Climbing tools | Roll advantage on climb checks | 10 |
-| Poison | 3 uses. Poision arrow or melee weapon. Arrow is used even on miss. Hand weapon is used on next melee combat won.  Target rolls STR vs your attack roll. | 15 |
-| Disguise kit | 3 uses. Opposed WON rolls to see through. | 10 |
-| Net | Ranged attack within 10" to catch a unit in a net. While in a net a unit cant use movement actions. A unit may attempt a STR roll DC 13 to escape as an action. | 5 |
-| Torch | 3 uses. Creates light with 10". Takes up hand to use. Can attack as a hand weapon with -1 damage. | 5 |
-| Lantern | As torch but can tie to belt. | 20 |
-| Crowbar | Gains advantage on strength checks when used. | 15 |
-| Thieves tools | x3 Pick locks. Only used on a failed roll. | 15 |
-| Spyglass | Gains advantage on sight when used. | 20 |
-| Healers kit | 3 uses. Heal one temporary injury. | 20 |
-| Manacles | Can restrain a grapples unit as an action. | 10 |
-| Trap | The first unit to walk onto this takes a STR 3 attack. A unit may make a WON check DC 15 to see the trap. | 20 |
-| Banner or instrument | Use a move or standard action to play / wave. All heroes and followers within sight gain advantage on morale. | 15 |
-| Backpack (Petty) | Increase equip load to 8. -1 to STR checks | 10 |
-| Petty items | Candle, parchment, flint, chalk, quill etc. | 1 |
+| Item                 | Effect                                                                                                                                                          | Cost |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| Rope                 | Set at the top of a ledge to let people climb                                                                                                                   | 5    |
+| Climbing tools       | Roll advantage on climb checks                                                                                                                                  | 10   |
+| Poison               | 3 uses. Poision arrow or melee weapon. Arrow is used even on miss. Hand weapon is used on next melee combat won.  Target rolls STR vs your attack roll.         | 15   |
+| Disguise kit         | 3 uses. Opposed WON rolls to see through.                                                                                                                       | 10   |
+| Net                  | Ranged attack within 10" to catch a unit in a net. While in a net a unit cant use movement actions. A unit may attempt a STR roll DC 13 to escape as an action. | 5    |
+| Torch                | 3 uses. Creates light with 10". Takes up hand to use. Can attack as a hand weapon with -1 damage.                                                               | 5    |
+| Lantern              | As torch but can tie to belt.                                                                                                                                   | 20   |
+| Crowbar              | Gains advantage on strength checks when used.                                                                                                                   | 15   |
+| Thieves tools        | x3 Pick locks. Only used on a failed roll.                                                                                                                      | 15   |
+| Spyglass             | Gains advantage on sight when used.                                                                                                                             | 20   |
+| Healers kit          | 3 uses. Heal one temporary injury.                                                                                                                              | 20   |
+| Manacles             | Can restrain a grapples unit as an action.                                                                                                                      | 10   |
+| Trap                 | The first unit to walk onto this takes a STR 3 attack. A unit may make a WON check DC 15 to see the trap.                                                       | 20   |
+| Banner or instrument | Use a move or standard action to play / wave. All heroes and followers within sight gain advantage on morale.                                                   | 15   |
+| Backpack (Petty)     | Increase equip load to 8. -1 to STR checks                                                                                                                      | 10   |
+| Petty items          | Candle, parchment, flint, chalk, quill etc.                                                                                                                     | 1    |
 
 ### Mounts
 When mounted on a riding creature the units gets the following modifiers:
@@ -267,6 +294,8 @@ All attacks target the rider. If the rider fails any agility checks or is reduce
 
 ## Skills and Spells
 ### Skills
+Players may choose skills however a table for randomly rolling is also supplied.
+
 | Dice Roll | Name             | Description                                                                                                                                                                                                          |
 |-----------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1-2       | Brawler          | The character may treat each unarmed hand as a normal hand weapon. The character may also use improvised weapons without any penalty. DM decides what weapon counts as what type (eg. broom is a two-handed weapon). |
@@ -282,6 +311,8 @@ All attacks target the rider. If the rider fails any agility checks or is reduce
 
 
 ### Spells
+Players may choose spells however a table for randomly rolling is also supplied.
+
 | Dice Roll | DC  | Name           | Description                                                                                                                                                                                                                                          |
 |-----------|-----|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1-2       | 12  | Cloak          | Go invisible until the end of your next turn, make an attack or cast a spell.                                                                                                                                                                        |

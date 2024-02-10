@@ -18,7 +18,7 @@
 | Ogre            | 6    | 3        | 0       | 12    | 0      | 14     | Large, 2H Weapon                                                   |
 | Skeleton        | 6    | 1        | 0       | 10    | 0      | 1      | Undead                                                             |
 | Spectre         | 6    | 1        | 0       | 10    | 10     | 14     | Undead, Flying, Half-Damage from Non-Magical Weapons, Death Scream |
-| Troll           | 4    | 4        | 0       | 14    | 2      | 16     | Large, 2H Weapon, Regeneration                                                 |
+| Troll           | 4    | 4        | 0       | 14    | 2      | 16     | Large, 2H Weapon, Regeneration                                     |
 | Werewolf        | 6    | 4        | 0       | 12    | 5      | 18     | Infection, Regeneration, Silver Allergy, +2 Damage, Expert Climber |
 | Wolf            | 8    | 1        | 0       | 10    | 0      | 6      | Animal                                                             |
 | Zombie          | 4    | 0        | 0       | 12    | 0      | 6      | Undead                                                             |

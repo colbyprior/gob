@@ -1,4 +1,4 @@
-# Gob
+# War Gob
 ## Design principals
 - All rolls are always using the d20.
 - Game is designed around a 2’ - 3’ board using miniatures.
@@ -19,10 +19,17 @@ A characters strength stat is added to any roll associated with physical power o
 A characters agility stat is added to any roll associated with reflexes, climbing, sneaking, complex tools or ranged combat.
 
 ### Wonder (WON)
-A characters wonder stat is added to any roll associated with casting spells, resisting spells or diplomacy.
+A characters wonder stat is added to any roll associated with casting spells, resisting spells or investigating arcane wonders.
+
+### Charisma (CHA)
+A characters wonder stat is added to any roll associated with diplomacy, leadership, deception or intimidation.
 
 ### Armour
 Armour is a stat derived from the base value of 10 with the addition of the characters armour. Any incoming damage from combat or spells is reduced by the armour value.
 
 ### Hit Points (HP)
 Hit points represents a characters ability do negate damage through endurance, finesse or luck. It does not represent damage being taken. Only when a character is reduced to 0 HP they may receive an injury.
+
+## Character information
+### Aspects
+Character aspects are high level descriptions about a key part of a character. If ever a non-combat roll could justifiably benefit from a characters aspect they may roll with advantage.
