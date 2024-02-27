@@ -114,10 +114,6 @@ Each unit gets a move action and a standard action.
 
 **Standard:** Attacking, casting spells etc. A standard action can be used to move again however the second move only counts as half distance.
 
-1. First all units take their move action simultaneously if possible.
-2. Afterwards resolve standard actions of each unit in any order.
-3. If anyone was unable to take their move action initially due to being engaged may now move.
-
 ## Combat
 ### Melee combat
 The attacker and the target of the attack both roll their **strength** skill. Whoever got higher wins the combat. If there is a tie then both units win the combat simultaneously.
@@ -126,7 +122,7 @@ The combat winner **then adds** any damage modifiers to their roll. This is then
 
 The loser subtracts their **armour** from the damage they are given, remaining damage is dealt to their HP total.
 
-The combat winner can then either choose to **stay engaged** with the other unit or **shove** the other unit back 1 inch. If it’s the combat winner's turn and they have not yet used their move action they may now move.
+The combat winner can then either choose to **stay engaged** with the other unit or **shove** the other unit back 1 inch.
 
 ### Ranged combat
 The attacker and the target of the attack both roll their **agility** skill. If the attacker rolled higher then they win the combat. If the defender rolls higher then the attack is a **miss**. Apply any modifiers from the table below to the **defenders** roll.
